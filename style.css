@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Amiri:ital,wght@0,400;1,700&family=Bree+Serif&family=Carter+One&family=Chewy&family=Courgette&family=Fredericka+the+Great&family=Gulzar&family=Source+Sans+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Amiri:ital,wght@0,400;1,700&family=Bree+Serif&family=Carter+One&family=Chewy&family=Courgette&family=Fredericka+the+Great&family=Gulzar&family=Lobster&family=Source+Sans+Pro:ital@1&family=Sriracha&display=swap');
+*/{
+    margin:0;
+    padding:0;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+   /* background: linear-gradient(to right,pink,plum);*/
+    font-size: xx-large;    
+    
+}
+.input-container{ 
+ position: absolute;
+ margin-top: 40vh;
+ margin-left: 35vw; 
+ height:30vh;
+ font-size: xx-large;
+
+}
+#title{
+    font-family: 'Carter One', cursive;
+    position: absolute;
+    margin-left: 30vw;
+    color:purple;
+    text-shadow: 2px 2px 2px yellow;
+    margin-top: 20vh;
+}
+#gamepic{
+    position:absolute;
+   
+    height: 100vh;
+    width: 100vw;
+}
+#heading{
+    position: absolute;
+    margin-top: 30vh;
+    margin-left: 20vw;
+    font-family: 'Sriracha', cursive;
+    color:palevioletred;
+    text-shadow: 2px 2px 2px purple;
+   
+}
+#attemptLabel{
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 45vw;
+    font-family: 'Sriracha', cursive;
+    color: palevioletred;
+    text-shadow: 2px 2px 2px purple;
+}
+#textBox{
+    width: 10vw;
+    height: 10vh;
+    border-radius: 90px;
+    border-color:purple ;
+    background-color: lightpink;
+    box-shadow: 3px 3px 5px  lightgoldenrodyellow;
+    font-size: xx-large;
+    color: midnightblue;
+    font-weight: 900; 
+    text-align: center;
+   
+
+}
+#checkButton{
+    font-size: medium;
+}
+#container2{
+    height:100vh;
+    width:100vw;
+}
+#lost{
+    position: absolute;
+    justify-content: center;
+    margin-left: 30vw;
+    margin-top: 30vh;
+    color: red;
+    font-weight: 900;
+    font-size:5em;
+    text-align: center;
+
+}
+#lose{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+#message{
+    position: absolute;
+    margin-top:56vh ;
+    margin-left: 35vw;
+    color: red;
+    font-weight: 700;
+    font-family: 'Sriracha', cursive;
+
+}
+#gif1{
+    width: 20vw;
+    height: 30vh;
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 35vw;
+}
+#win{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+
+}
+#gif2{
+    width: 20vw;
+    height: 30vh;
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 35vw;
+
+}
+#won{
+    position: absolute;
+    justify-content: center;
+    margin-left: 35vw;
+    margin-top: 30vh;
+    color: red;
+    font-weight: 900;
+    font-size:4em;
+    text-align: center;  
+
+}
+#play-again{
+    position: absolute;
+    margin-top: 60vh;
+    margin-left: 60vw;
+}
+#textLabel{
+    font-family: 'Sriracha', cursive;
+    color:purple;
+    text-shadow: 2px 2px 2px purple;
+    
+}
